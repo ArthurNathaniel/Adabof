@@ -32,16 +32,17 @@
         <i class="fa-solid fa-bars-staggered"></i>
     </button>
     <div class="mobile">
-        <a href="index.php">Home</a>
+    <a href="index.php">Home</a>
         <a href="about.php">About</a>
-        <div class="dropdown">
+        <!-- <div class="dropdown">
             <a href="#">Services <span><i class="fa-solid fa-angle-down"></i></span></a>
             <div class="dropdown-content">
                 <a href="roofing_service.php">Roofing Service</a>
                 <a href="construction_services.php">Construction Service</a>
                 <a href="contractor.php">Contractor</a>
             </div>
-        </div>
+        </div> -->
+        <a href="products.php">Products</a>
         <a href="our_projects.php">Our Projects</a>
         <a href="testimonial.php">Testimonial</a>
         <a href="blog.php">Blog</a>

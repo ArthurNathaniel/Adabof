@@ -59,7 +59,7 @@
      width: 100%;
      height: 50px;
      border-radius: 10px;
-     border: 1px solid #003c35;
+     border: 1px solid #022B5F;
      padding-left: 3%;
  }
 
@@ -68,7 +68,7 @@
  }
 
  .forms button {
-     background-color: #003c35;
+     background-color: #022B5F;
      height: 50px;
      color: #fff;
      border-radius: 10px;
@@ -78,7 +78,7 @@
  .title h2 {
      margin-bottom: 30px;
      text-align: center;
-     color: #003c35;
+     color: #022B5F;
  }
 
  @media only screen and (max-width: 1110px) {

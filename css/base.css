@@ -15,7 +15,7 @@ body{
 .header_all{
     display: flex;
     justify-content: space-between;
-    background-color: #003c35;
+    background-color: #022B5F;
     padding: 0 7%;
     padding-block: 5px;
 }
@@ -44,7 +44,7 @@ body{
 
 .logo {
     height: 95px;
-    width: 150px;
+    width: 250px;
     background-image: url(../images/logo.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ body{
     color: #000;
 }
 .nav_links a:hover{
-    color: #003c35;
+    color: #022B5F;
 }
 .mobile a {
     color: #000;
@@ -69,7 +69,7 @@ body{
 .dropdown-content {
     display: none;
     position: absolute;
- background-color: #003c35;
+ background-color: #022B5F;
     min-width: 160px;
     z-index: 701;
 }
@@ -92,7 +92,7 @@ body{
     height: 30px;
     width: 30px;
     font-size: 20px;
-    background-color: #003c35;
+    background-color: #022B5F;
     color: #fff;
 }
 
@@ -119,7 +119,7 @@ body{
     right: 30px;
     position: fixed;
     bottom: 20px;
-    background-color: #003c35;
+    background-color: #022B5F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +134,7 @@ body{
 }
 #toggleButton {
     display: none;
-    background-color: #003c35;
+    background-color: #022B5F;
 }
 
 .mobile {
@@ -149,7 +149,7 @@ body{
  }
 
  .hero_bg{
-    background-color: #003c35;
+    background-color: #022B5F;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -185,10 +185,10 @@ body{
         width: 250px;
     }
     .dropdown-content a:hover{
-        color: #003c35;
+        color: #022B5F;
     }
 .hero_bg {
-        background-color: #003c35;
+        background-color: #022B5F;
         height: 300px;
         display: flex;
         justify-content: center;
@@ -203,7 +203,7 @@ body{
     } */
     #toggleButton {
         display: block;
-     background-color: #003c35;
+     background-color: #022B5F;
         border: none;
         padding: 15px;
         color: #fff;
