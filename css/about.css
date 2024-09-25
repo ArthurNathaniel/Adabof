@@ -1,0 +1,82 @@
+.about_all{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.about_swiper{
+    display: none;
+}
+.board_all{
+    margin-top: 70px;
+        padding: 0 7%;
+}
+
+.border_title h1{
+font-size: 50px;
+    text-align: center;
+    color: #003c35;
+}
+
+.boarder_grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.border_profile{
+    width: 95%;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
+.profile_image{
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/profile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile_info{
+    padding: 0 5%;
+    padding-block: 30px;
+}
+
+.socials{
+    margin-top: 15px;
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.socials p{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1110px) {
+    
+.boarder_grid{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+.border_title{
+    text-align: center;
+}
+.border_title h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+}
+
+
+@media only screen and (max-width: 810px) {
+
+    .boarder_grid {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .border_profile{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,13 @@
+.products_all{
+    margin-top: 70px;
+    padding: 0 7%;
+}
+
+.product_head{
+    margin-bottom: 50px;
+}
+
+.product_head h1{
+    color: #003c35;
+    margin-bottom: 10px;
+}

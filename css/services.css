@@ -1,0 +1,58 @@
+.services_alls{
+    padding: 0 7%;
+    margin-top:70px ;
+}
+.all_title h1{
+    font-size: 35px;
+            color: #003c35;
+            margin-bottom: 15px;
+}
+.p_title h1{
+font-size: 35px;
+    color: #003c35;
+    margin-top: 35px;
+}
+.products_all{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.products{
+    width: 90%;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.product_img img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.product_info{
+    padding: 0 5%;
+    padding-block: 15px;
+    text-align: center;
+}
+.btns{
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.btns a{
+  color: #fff;
+    padding: 15px 45px;
+    background-color: #003c35;
+}
+.our_project_title h1{
+    text-align: left;
+    font-size: 35px;
+}
+@media only screen and (max-width: 1110px) {
+.products_all {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .products{
+        width: 100%;
+    }
+}
